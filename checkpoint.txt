@@ -1,0 +1,83 @@
+Slide 1: Introduction
+
+Title: MongoDB vs SQL
+
+Brief Introduction: 
+MongoDB and SQL are two types of databases used for storing and managing data. While both serve the same fundamental
+ purpose, they have significant differences in their architecture and functionality.
+
+
+
+
+Slide 2: MongoDB
+
+Title: MongoDB
+
+Description: 
+
+MongoDB is a NoSQL, document-oriented database, which means it stores data in flexible, JSON-like documents.
+
+Functionality:
+
+1- Schema-less: MongoDB does not require a predefined schema, allowing for more flexibility in data structure.
+2- Scalability: Designed to handle large volumes of data and high throughput, making it suitable for big data applications.
+3- High Performance: Utilizes indexing and other optimization techniques for fast querying.
+4- Replication and Sharding: Built-in support for replication and sharding for high availability and horizontal scaling.
+
+
+
+
+Slide 3: SQL (Structured Query Language)
+
+Title: SQL
+
+Description:
+ SQL is a language used for managing relational databases, which store data in tables with predefined schemas.
+Functionality:
+1- Data Integrity: Enforces ACID properties (Atomicity, Consistency, Isolation, Durability) to maintain data integrity.
+2- Transactions: Supports transactions, allowing multiple operations to be grouped together and executed atomically.
+3- Standardized: SQL is a standardized language, widely supported by various database management systems.
+4- Complex Queries: Allows for complex querying using SQL statements like SELECT, INSERT, UPDATE, DELETE, etc.
+
+
+
+
+Slide 4: Comparison
+
+Title: Comparison
+
+1-MongoDB:
+~ Schema-less
+~ Suitable for unstructured and semi-structured data
+~ Horizontal scalability with built-in support for sharding
+~ JSON-like document storage
+~ Flexible data modeling
+
+2-SQL:
+~Relational database with a predefined schema
+~Suitable for structured data
+~ACID compliance ensures data integrity
+~Vertical scalability
+~Standardized querying language (SQL)
+
+
+
+
+
+
+Slide 5: Use Cases and Conclusion
+
+Title: Use Cases and Conclusion
+
+Use Cases:
+
+~ MongoDB: Ideal for applications with evolving data schemas, real-time analytics, and high-volume data storage 
+requirements.
+
+~ SQL: Well-suited for applications requiring strict data integrity, complex queries, and transactional support.
+
+Conclusion: 
+Choosing between MongoDB and SQL depends on the specific requirements of the application. While MongoDB offers 
+flexibility and scalability for certain use cases, SQL provides strong consistency and data integrity for others. 
+Ultimately, the decision should be based on factors such as data structure, scalability needs, and transactional 
+requirements.
